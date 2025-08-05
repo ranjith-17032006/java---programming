@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float value = sc.nextFloat();
+        System.out.printf("%.6f\n",value);
+        DecimalFormat df5 = new DecimalFormat("0.0000");
+        System.out.println(df5.format(value));
+        System.out.printf("%.2f\n",value);
+        System.out.println(Math.round(value));
+         
+        
+    }
+}
