@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class victorious {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
@@ -14,6 +14,5 @@ public static void main(String[] args) {
         System.out.println("Bird said:"+ number);
         System.out.println("Alice must go in path-"+ sum);
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
-    
     }
 }
