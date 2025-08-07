@@ -4,9 +4,8 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
-
-    public static void main(String[] args) {
+public class victorious{
+ public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double base = sc.nextDouble();
         double height = sc.nextDouble();
@@ -17,6 +16,5 @@ public class Solution {
         double perimeter = side1 + side2 + side3;
         System.out.printf("Area of Triangle is %.2f\n", area);
         System.out.printf("Perimeter of Triangle is %.2f\n", perimeter);
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
     }
 }
