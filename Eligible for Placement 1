@@ -5,8 +5,7 @@ import java.math.*;
 import java.util.regex.*;
 
 public class victorious{
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
         int arrears = sc.nextInt();
