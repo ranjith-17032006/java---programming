@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class victorious {
+
+    public static void main(String[] args) {
+        Scanner rk = new Scanner(System.in);
+        int val= rk.nextInt();
+        if(val>=1 && val<=9){
+            for(int i=1;i<=val;i++){
+                System.out.println(val+" x "+i+" = "+ i*val);
+            }}else{
+                   System.out.println("Invalid Input");
+    }
+            }
+            
+        
+    }
+    
