@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class victorious {
+
+    public static void main(String[] args){
+        Scanner rk = new Scanner(System.in);
+        int z = rk.nextInt();
+        int[]doors =new int[z];
+        int i,j;
+        for(i=0;i<z;i++)
+         doors[i] = rk.nextInt();
+        int k = rk.nextInt();
+        for(j=0;j<z;j++){
+            if(doors[j]==k){
+                System.out.printf("Door Number is %03d-DN\n", j);
+                break;
+            }
+        }
+        if(j==z)
+            System.out.println("-1");
+    }
+}
