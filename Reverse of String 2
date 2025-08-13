@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class victorious {
+
+    public static void main(String[] args) {
+        Scanner rk = new Scanner(System.in);
+        String str = rk.nextLine();
+        StringBuffer str4 = new StringBuffer(str);
+        System.out.println(str4.reverse());
+    }
+}
